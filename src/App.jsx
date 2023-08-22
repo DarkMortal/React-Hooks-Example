@@ -6,7 +6,7 @@ import Example3 from "./components/example3";
 export default function App() {
   var newRef = useRef();
   return (
-    <>
+    <div className="App">
       <Example1 />
       <hr />
       <div class="btn-grp">
@@ -19,6 +19,6 @@ export default function App() {
       <hr />
       <Example3 />
       <hr />
-    </>
+    </div>
   );
 }
