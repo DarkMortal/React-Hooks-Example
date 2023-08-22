@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  text-align: center;
+  padding: 5px;
+  background-color: aqua;
+}
+.btn-grp button {
+  margin: 5px;
+}
+/*html,
+body {
+  padding: 50px;
+  background-color: #000000;
+  color: greenyellow;
+}*/
