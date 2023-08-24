@@ -11,8 +11,10 @@ String.prototype.strip = function () {
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
-root.render(
+/*root.render(
   <StrictMode>
     <App />
   </StrictMode>
-);
+);*/
+// StrictMode only used for development
+root.render(<App />);
